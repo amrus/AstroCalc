@@ -1,2 +1,2 @@
 # AstroCalc
-Calculate your sun sign with this program!
+Calculate sun signs with these program!
