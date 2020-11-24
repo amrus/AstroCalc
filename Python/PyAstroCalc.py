@@ -41,5 +41,5 @@ if month == "September":
         sunSign = "Virgo"
     else:
         sunSign = "Libra" 
-if month == "Ocotober":
+if month == "October":
     if day
