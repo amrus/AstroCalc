@@ -27,4 +27,14 @@ if month == "June":
     else:
         sunSign = "Cancer"
 if month == "July":
-    if day
+    if day > 23:
+        sunSign = "Cancer"
+    else: 
+        sunSign = "Leo"
+if month == "August":
+    if day > 22: 
+        sunSign = "Leo"
+    else: 
+        sunSign = "Virgo"
+if month == "September":
+    if day 
