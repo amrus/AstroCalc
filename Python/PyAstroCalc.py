@@ -1,54 +1,74 @@
 # AstroCal.py
 # Author : Alana Rust
 # Date: 11-24-2020
-day = 22
-month = "December"
+name = input("Enter your name:")
+day = 22 # add input 
+month = "December" # add input 
 sunSign = None 
-
+ # def main():
 # Aries + Pisces
 if month == "March": 
     if day > 21:
         sunSign = "Aries"
     else:
         sunSign = "Pisces"
-if month == "April":
+
+# Aries + Taurus
+elif month == "April":
     if day < 19:
         sunSign = "Aries"
     else: 
         sunSign = "Taurus"
-if month == "May":
+
+# Taurus + Gemini
+elif month == "May":
     if day < 20:
         sunSign = "Taurus"
     else:
         sunSign = "Gemini"
-if month == "June":
+
+# Gemini + Cancer 
+elif month == "June":
     if day > 20:
         sunSign = "Gemini"
     else:
         sunSign = "Cancer"
-if month == "July":
+
+# Cancer + Leo
+elif month == "July":
     if day < 23:
         sunSign = "Cancer"
     else: 
         sunSign = "Leo"
-if month == "August":
+
+# Leo + Virgo
+elif month == "August":
     if day < 22: 
         sunSign = "Leo"
     else: 
         sunSign = "Virgo"
-if month == "September":
+elif month == "September":
     if day < 22:
         sunSign = "Virgo"
     else:
         sunSign = "Libra" 
-if month == "October":
+elif month == "October":
     if day < 22:
         sunSign = "Libra"
     else: 
         sunSign = "Scorpio"
-if month == "November":
+elif month == "November":
     if day < 21:
         sunSign = "Scorpio"
     else: sunSign = "Sagittarius" 
-if month == "December":
-    if day 
+elif month == "December":
+    if day < 21:
+        sunSign = "Sagittarius"
+    else:
+        sunSign = "Capricorn"
+elif month == "January":
+    if day < 19:
+        sunSign = "Capricorn"
+    else:
+        sunSign = "Aquarius"
+
