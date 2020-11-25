@@ -42,4 +42,13 @@ if month == "September":
     else:
         sunSign = "Libra" 
 if month == "October":
-    if day
+    if day < 22:
+        sunSign = "Libra"
+    else: 
+        sunSign = "Scorpio"
+if month == "November":
+    if day < 21:
+        sunSign = "Scorpio"
+    else: sunSign = "Sagittarius" 
+if month == "December":
+    if day 
