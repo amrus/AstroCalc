@@ -1,7 +1,7 @@
 # AstroCal.py
 # Author : Alana Rust
 # Date: 11-24-2020
-name = input("Enter your name:")
+name = input("Enter your name: ")
 day = 22 # add input 
 month = "December" # add input 
 sunSign = None 
@@ -81,4 +81,12 @@ elif month == "January":
         sunSign = "Capricorn"
     else:
         sunSign = "Aquarius"
+
+# Aquarius + Pisces
+elif month == "February":
+    if day < 19:
+        sunSign = "Aquarius"
+    else:
+        sunSign = "Pisces"
+print(sunSign)
 
