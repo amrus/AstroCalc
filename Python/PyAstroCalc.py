@@ -2,8 +2,8 @@
 # Author : Alana Rust
 # Date: 11-24-2020
 name = input("Enter your name: ")
-day = 22 # add input 
-month = "December" # add input 
+day = int(input("Enter your date of birth (Ex: 19): ")) 
+month = (input("Enter your birth month (Ex: June): ")) 
 sunSign = None 
  # def main():
 # Aries + Pisces
@@ -88,5 +88,5 @@ elif month == "February":
         sunSign = "Aquarius"
     else:
         sunSign = "Pisces"
-print(sunSign)
+print("Your sun sign is: " + sunSign)
 
