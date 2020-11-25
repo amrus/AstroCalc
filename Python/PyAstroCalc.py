@@ -47,25 +47,35 @@ elif month == "August":
         sunSign = "Leo"
     else: 
         sunSign = "Virgo"
+
+# Virgo + Libra
 elif month == "September":
     if day < 22:
         sunSign = "Virgo"
     else:
         sunSign = "Libra" 
+
+# Libra + Scorpio
 elif month == "October":
     if day < 22:
         sunSign = "Libra"
     else: 
         sunSign = "Scorpio"
+
+# Scorpio + Sag
 elif month == "November":
     if day < 21:
         sunSign = "Scorpio"
     else: sunSign = "Sagittarius" 
+
+# Sag + Capricorn
 elif month == "December":
     if day < 21:
         sunSign = "Sagittarius"
     else:
         sunSign = "Capricorn"
+
+# Capricorn + Aquarius
 elif month == "January":
     if day < 19:
         sunSign = "Capricorn"
