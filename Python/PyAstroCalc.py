@@ -90,7 +90,7 @@ def main():
             sunSign = "Aquarius"
         else:
             sunSign = "Pisces"
-    print("Your sun sign is: " + sunSign)
+    print("Hi, " + name + " Your sun sign is: " + sunSign)
 
 
 main()
